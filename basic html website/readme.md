@@ -1,6 +1,13 @@
-This basic html portfolio website with proper layout no styling
+**basic html protofolio with css**
+<br>
+
+This basic html portfolio website with proper layout and styling
 its beginner friendly
 
 
-Goal
-1. create website with only html
+**Goal**
+<ol>
+  <li>pages: Home,articles,contact us,projects</li>
+  <li>Navigation bar with links in top of every page</li>
+  <li>internal css styling</li>
+</oll>
