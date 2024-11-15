@@ -6,5 +6,5 @@ Basic HTML website protfolia with proper layout and CSS
 <ol>
 <li>Pages: Home, Projects, Articles, Contact</li>
 <li>Navigation bar with links to each page, at the top of each page</li>
-<li>Structure the content in a way that makes adding styles easy</li>
+<li>CSS styling must be inline</li>
 </ol>
