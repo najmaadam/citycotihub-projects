@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website  </title>
+<style>
+    body{
+        font-family:'Times New Roman', Times, serif;
+    }
+
+header{
+    background-color: #d28a93;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+ 
+}
+
+header nav ul li {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    display: inline;
+    margin: 25px;
+    background-color: white;
+    padding: 5px;
+    
+    border-radius: 5px;
+
+}
+header nav ul li:hover{
+    background-color:  #fdd7dc;
+}
+table tr td:hover{
+background-color: #fdd7dc;
+}
+footer{
+    background-color:  #d28a93;
+    padding: 1em;
+ text-align: center;
+ color: white;
+}
+
+section form{
+box-shadow: 0 4px 8px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+   background-color:#d28a93;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 1em;
+    border-radius: 5px;
+    height: 40vh;
+    color: white;
+}
+input#name.input{
+width: 40%;
+height: 10%;
+border-radius:8px;
+}
+input#email.input{
+width: 40%;
+height: 10%;
+border-radius:8px;
+
+}
+
+textarea#comment.textarea{
+    width: 40%;
+height: 25%;
+border-radius:8px;
+}
+h1 .header{
+    background-color: #d28a93;
+}
+
+form button{
+    background-color: #c76868;
+    color:rgb(253, 253, 253);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: #fd7171;
+}
+section .testimonials{
+display:flex;
+text-align: center;
+justify-content: center;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <h1 style="justify-content: center; color: white;">Html learning project</h1>
+    <nav>
+<ul  class="nav-listS" >
+    <li>About</li>
+    <li>projects</li>
+    <li>testimonials</li>
+    <li>Contact</li>
+</ul>
+    </nav>
+</header>
+<section class="About">
+    <h1 style="text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size:35px; background-color: #d28a93; color: white;" >About</h1>
+    <p style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 20px;">This projects help students learn HTML and CSS basics by building a functional webpage</p>
+</section>
+<main>
+<section class="project">
+    <table width="100%"  border="1" >
+        <tr style=" background-color: #d28a93; font-size: 20px; color: white;">
+            <th>project name</th>
+            <th>Description</th>
+            <th>status</th>
+        </tr>
+        <tr >
+            <td >Portofolia website</td>
+            <td >show case your projects and skills</td>
+            <td > completed</td>
+        </tr>
+        <tr >
+            <td >Personal blog</td>
+            <td >A simple blogging plattform</td>
+            <td > uncompleted</td>
+        </tr>
+    </table>
+    <br><br>
+</section>
+<h1 style="text-align: center; background-color:#d28a93 ;margin-top: 30px ; margin-bottom: 30px ; border-radius: 8px ; color: white; ">Testimonials</h1>
+<section class="testimonials" style="display: flex;   gap: 20px; color: white; font-size: 20px;"  >
+   
+ <section style="box-shadow: 0 4px 8px rgba(0, 0, 0, 1);  border-radius: 8px; margin-right: 20px; color: black;" >
+   <img src="undraw_pic_profile_re_7g2h.svg" alt=" Personal" width="30%" >   
+ <p style="color: black;"><b>John Dou</b></p> <p >  "this website helped me especially with HTML
+    <br> course, ifeel much more confident now"</p>
+</section>
+    <br><br>
+    <section  style="box-shadow: 0 4px 8px rgba(0, 0, 0, 1); color:black; border-radius: 8px; margin-right: 20px;">
+<img src="undraw_profile_pic_re_iwgo (1).svg" alt="" width="30%">
+<p style="color: black;"><b>Mary Johnson</b></p> <p>"A challenging but rewarding exprience.Highly recemmonded for biggeners"</p>
+</section>
+<section  style="box-shadow: 0 4px 8px rgba(0, 0, 0, 1); color:black; border-radius: 8px; margin-left: 20px;" >
+<img src="undraw_profile_pic_re_iwgo (1).svg" alt="" width="30%">
+<p style="color: black;"><b>Eliz mark</b></p>  <p>"I am able to create a functional website at end of projecct"</p>
+</section>
+</section>
+<br><br>
+<section>
+    <p><h1 style="background-color: #d28a93; text-align: center; padding: 1em ;color: white; align-items: center; border-radius: 8px;">Comment</h1></p>
+    <form action="">
+        <label for="name" style="font-size: 30px;">User Name</label>
+        <br>
+        <input type="text" id="name" class="input" >
+        <br>
+
+        <label for="email" style="font-size: 30px;">Email</label>
+        <br>
+        <input type="email" id="email" class="input" >
+        <br>
+
+        <label for="name" style="font-size: 30px;">Comment</label><br>
+        <textarea name="comment" id="comment" placeholder="your question" class="textarea"></textarea>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</main>
+
+<footer> &copy; All rigth reserved Najma Mahad 2024</footer>
+    
+</body>
+</html>
