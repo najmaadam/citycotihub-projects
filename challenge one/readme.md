@@ -1,6 +1,6 @@
 **this is portofolio page i used html and css to built it**
 
-i used these to add some flavors to the page it's optional though
+i used these flowing things to add some flavors to  my web page {it's optional}
 <ul>
   <li>simple logo</li>
   <li>facebook icons </li>
