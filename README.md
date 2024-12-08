@@ -4,7 +4,7 @@ Welcome to **CitycotiHub!** This repository contains frontend project assignment
 **list of projects in this repository**
 
 <ul>
-  <li></li>
+  <li>basic html portfolio with CSS</li>
   <li></li>
   <li></li>
 </ul>
