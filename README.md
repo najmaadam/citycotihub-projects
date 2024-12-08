@@ -5,6 +5,6 @@ Welcome to **CitycotiHub!** This repository contains frontend project assignment
 
 <ul>
   <li>basic html portfolio with CSS</li>
-  <li></li>
+  <li>[(https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/challenge%20one)]</li>
   <li></li>
 </ul>
