@@ -1,0 +1,236 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#DFF2EB ;
+    box-sizing: border-box;
+
+
+}
+.header-container{
+
+background-color: #4A628A;
+padding: 2em;
+border-radius: 8px;
+text-align: right;
+
+}
+
+nav.nav ul li{
+display:inline ;
+color:black;
+margin: 10px;
+font-size: 20px;
+background-color: #dfedf2 ;
+border-radius: 8px;
+padding: 8px;
+margin-top: 30%;
+
+}
+
+
+nav.nav ul li:hover{
+background-color:#bad1f7;
+}
+
+main div.container1{
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+
+}
+main div.container1 div.About:hover{
+    background-color:#bad1f7;
+}
+
+main .About{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 2px 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+  
+
+}
+
+div.About h1{
+    font-weight: 700;
+    width: 40%;
+    border-bottom:5px solid #4A628A ;
+    padding-bottom: 5px;
+}
+
+
+main div.skills{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 x 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+  
+   
+}
+main div.container1 div.skills:hover{
+    background-color:#bad1f7;
+}
+div.skills h1{
+    font-weight: 700;
+    width: 30%;
+    border-bottom:5px solid #4A628A ;
+    padding-bottom: 5px;
+}
+
+div p span{
+    background-color: #4A628A;
+    color: white;
+    border-radius: 3px;
+    font-size: larger;
+    padding: 5px;
+    line-height: 50px;
+}
+main div.container2{
+
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+}
+
+div.Eduction{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 2px 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+main div.container2 div.Eduction:hover{
+    background-color:#bad1f7;
+}
+div.Eduction h1{
+    font-weight: 700;
+    width: 40%;
+    border-bottom:5px solid #4A628A;
+    padding-bottom: 5px;
+}
+
+div.Exprience{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 2px 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+main div.container2 div.Exprience:hover{
+    background-color:#bad1f7;
+}
+
+div.Exprience h1{
+    font-weight: 700;
+    width: 40%;
+    border-bottom:5px solid #4A628A;
+    padding-bottom: 5px;
+}
+
+main div.container3{
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+}
+
+div.Projects{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 2px 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+main div.container3 div.Projects:hover{
+    background-color:#bad1f7;
+}
+
+div.Projects h1{
+    font-weight: 700;
+    width: 40%;
+    border-bottom:5px solid #4A628A;
+    padding-bottom: 5px;
+}
+
+
+div.Article{
+    width: 400px;
+    height: 50vh;
+    box-shadow: 0 2px 2px  rgba(133, 128, 128, 0) ;
+    text-align: left;
+    border-bottom: #DFF2EB;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 20px;  
+}
+
+main div.container3 div.Article:hover{
+    background-color:#bad1f7;
+}
+
+div.Article h1{
+    font-weight: 700;
+    width: 60%;
+    border-bottom:5px solid #4A628A;
+    padding-bottom: 5px;
+}
+footer{
+    background-color: #4A628A;
+    text-align: center;
+    color: white;
+    padding: 2em;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+
+footer p a i.whatsapp{
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}
