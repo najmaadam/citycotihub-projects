@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regester.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <img src="online-test.png" alt="" width="130px">
+            <h1 align="center" style="padding-top: 20px;">Student's Register</h1>
+            <div class="form">
+                    <form action="">
+                        <label for="name">Fullname:</label>
+                        <br>
+                        <input type="text" id="name" placeholder="enter your name">
+                        <br>
+                        <label for="age">Age:</label>
+                        <br>
+                        <input type="number" id="age">
+        
+                        <br>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" placeholder="enter your email">
+        
+                        <br>
+        
+                        <label for="tell">Phone number:</label>
+                        <br>
+                        <input type="text" id="phone" placeholder="enter your phone number">
+        
+                        <br>
+        
+                        <label for="Gender" >Gender</label>
+                        <br>
+                        <select name="Gender" id="Gender" required >
+        
+                            <option value="" disabled selected> Select Gender</option>
+        
+                            <option value="male" >Male</option>
+                            <option value="female">Female</option>
+        
+                        </select>
+                        <br>
+        
+                        <label for="courses"> Courses</label> 
+                        <br>
+                
+                        <select name="courses" id="courses">
+        
+                        <option value="" disabled selected> select Course</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="php">PHP</option>
+                        <option value="Mysql">Mysql</option>
+        
+                    </select>    
+                    <br>
+                    <button type="submit">Save</button>
+
+                </form>
+
+            </div>
+
+            <div class="table">
+
+                <h1 align="center">Registered Students</h1>
+                <table border="1">
+    
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th> Gender</th>
+                    <th> Courses</th>
+                </tr>
+    
+                <tr>
+    
+                    <td>Najma axmed hasan</td>
+                    <td>20</td>
+                    <td>najma@gmail.com</td>
+                    <td>090787878</td>
+                    <td>Female</td>
+                    <td>HTML</td>
+                </tr>
+    
+                <tr>
+                    <td>axmed jamac axmed</td>
+                    <td>21</td>
+                    <td>axmed@gmail.com</td>
+                    <td>090656565</td>
+                    <td>Male</td>
+                    <td>PHP</td>
+                </tr>
+    
+            </table>
+    
+    
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
