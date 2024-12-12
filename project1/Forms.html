@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: rgb(153, 162, 243);
+    }
+
+    header{
+        background-color: rgb(75, 87, 247);
+        padding: 10px;
+        border-radius:8px;
+    }
+
+    footer{
+        background-color: rgb(75, 87, 247);
+        padding: 20px;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+    }
+    table tr th{
+        background-color: rgb(75, 87, 247);
+        
+    }
+    table tr td.edit{
+        background-color:rgb(75, 87, 247);
+    }
+    main button{
+        background-color:rgb(75, 87, 247); 
+        border-radius: 5px;
+    }
+
+</style>
+
+</head>
+<body>
+    <header><h1>Student enrollment form</h1>
+    </header>
+ <main>
+    <h1>Enrollment form</h1>
+    <form action="">
+        <label for="name">Full Name:</label>
+        <br>
+        <input type="text" id="name " placeholder="fullname">
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" id="email " placeholder="name@gmail.com">
+        <br><br>
+        <label for="course">choose course:</label>
+        <select name="" id="course">
+            <option value="html">Html</option>
+            <option value="html">php</option>
+            <option value="html">python</option>
+        </select>
+        <br><br>
+        <label for="info">additional information</label>
+        <br>
+        <textarea name="" id="info"> </textarea>
+    </form>
+    <br>
+    <button type="submit" >Submit</button>
+
+    <section>
+<h1>Enrolled Students</h1>
+<table border="1" style="background-color: #fff;">
+<tr>
+<th>student ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Course</th>  
+</tr>
+<tr>
+    <td>1</td>
+    <td>Sacdiya abdullahi</td>
+    <td>sacdiya@gmail.com</td>
+    <td>HTML</td>
+</tr>
+<tr>
+    <td class="edit">1</td>
+    <td class="edit">Sacdiya abdullahi</td>
+    <td class="edit">sacdiya@gmail.com</td>
+    <td class="edit">HTML</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>Sacdiya abdullahi</td>
+    <td>sacdiya@gmail.com</td>
+    <td>HTML</td>
+</tr>
+</table>
+
+    </section>
+ </main>
+<br><br>
+ <footer >&copy; right Najma Mahad</footer>
+</body>
+</html>
