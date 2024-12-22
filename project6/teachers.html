@@ -1,0 +1,189 @@
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+</head>
+<title>Teachers</title>
+<body>
+
+    <!-- Halkaan ka bilow samaynta formlkaaga -->
+<div class="container-fluid">
+<div class="card">
+    <div class="card-header" style="background-color:black; color: white; font-family: 'Times New Roman', Times, serif;">Add Teacher</div>
+    <div class="card-body " style="font-family: 'Times New Roman', Times, serif;">
+
+        <form action="">
+        <div class="row g-3 mb-4">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-id-card" style="color: black;"></i></span>
+                    <input type="text" placeholder="Enter teacher Id" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-user" style="color: black;"></i></span>
+                    <input type="text" placeholder="Enter teacher Name" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-phone"style="color: black;"></i></span>
+                    <input type="text" placeholder="Enter teacher Phone" class="form-control">
+                </div>
+            </div>
+
+        </div>
+<!-- row2 -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-envelope" style="color:black;"></i></span>
+                    <input type="email" placeholder="Enter teacher Email" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-building" style="color: black;"></i></span>
+                    <select name="course" id="course" class="form-select">
+                        <option value="">Field</option>
+                        <option value="course">Computer Science</option>
+                        <option value="">Social Science</option>
+                        <option value="">Health Science</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-chalkboard-user"style="color: black;"></i></span>
+                    <select name="course" id="course" class="form-select">
+                        <option value="">Courses</option>
+                        <option value="course">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">PHP</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+<!-- row3 -->
+<div class="row g-3 mb-4">
+<div class="col-md-4">
+    <div class="input-group">
+        <span class="input-group-text"><i class="fa-solid fa-clock"style="color: black;"></i></span>
+        <select name="course" id="course" class="form-select">
+            <option value="">Time</option>
+            <option value="course">Morning</option>
+            <option value="">Afternoon</option>
+            <option value="">Night</option>
+        </select>
+    </div>
+</div>
+</div>
+<!-- button -->
+<div class="row mt-4">
+    <div class="col-md-3">
+<button type="submit " class="btn btn-success w-100">Save
+    <i class="fas fa-save"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-warning w-100">Update
+    <i class="fa-solid fa-pen"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-danger w-100">Delete 
+    <i class="fas fa-trash"></i></button>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="submit" class="btn btn-info w-100" > Search
+   <i class=" fas fa-search"></i>
+</button>
+    </div>
+</div>
+    </div>
+</div>
+</form>
+
+
+<!-- table Teachers -->
+<div class="card mt-4" >
+    <div class="card-header" style="background-color: black; color: white;">
+        <div class="card-title " >
+       <h6> Registred Teachers</h6>
+    </div>
+    </div>
+
+    <!-- main content -->
+
+
+    <table class="table table-striped mb-4">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Courses</th>
+                <th>Department</th>
+                <th>Work Shift</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mohamed Ahmed</td>
+                <td>123-456-7890</td>
+                <td>mohamed@gmail</td>
+                <td>HTML</td>
+                <td>Computer Science</td>
+                <td>Morning</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aisha Ali</td>
+                <td>987-654-3210</td>
+                <td>aisha@gmail</td>
+                <td>anotomy</td>
+                <td>Midwifery</td>
+                <td>Night</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ahmed Ali</td>
+                <td>987-654-3210</td>
+                <td>ahmed@gmail</td>
+                <td>pedriatic</td>
+                <td>Health Science</td>
+                <td>Afternoon</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Fatima Ali</td>
+                <td>987-654-3210</td>
+                <td>fatima@gmail</td>
+                <td>accounting</td>
+                <td>BBA</td>
+                <td>Morning</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</div>
+
+</div>
+<script src="bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/53a255a459.js" crossorigin="anonymous"></script>   
+</body>
+
+</html>

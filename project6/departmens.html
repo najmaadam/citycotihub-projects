@@ -1,0 +1,119 @@
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+ 
+</head>
+<title>Department</title>
+<body>
+
+    <!-- Halkaan ka bilow samaynta formlkaaga -->
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-header" style="background-color: black; color:white;">Add Department</div>
+<div class="card-body">
+    <form action="">
+
+        <div class="row  g-3 mb-4">
+            <div class="col-md-4">
+                
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-id-card" style="color: black;"></i></span>
+                <input type="text" placeholder="Enter Department Id" class="form-control">
+            </div>
+        </div>
+
+            <div class="col-md-4">
+                <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-building" style="color:black;"></i></span>
+                <input type="text" placeholder="Enter Department No" class="form-control">
+            </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-calendar-days"style="color: black;"></i></span>
+                <input type="date"  class="form-control">
+            </div>
+        </div>
+ </div>
+
+ <!-- button -->
+ <div class="row">
+    <div class="col-md-3">
+<button type="submit " class="btn btn-success w-100">Save
+    <i class="fas fa-save"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-warning w-100">Update
+    <i class="fa-solid fa-pen"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-danger w-100">Delete 
+    <i class="fas fa-trash"></i></button>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="submit" class="btn btn-info w-100" > Search
+   <i class=" fas fa-search"></i>
+</button>
+    </div>
+</div>
+</div>
+    </div>
+</form>
+
+<!-- table Department -->
+<div class="card mt-4" >
+    <div class="card-header" style="background-color: black; color: white;">
+        <div class="card-title " >
+       <h6> Departments</h6>
+    </div>
+    </div>
+
+    <!-- table-->
+
+
+    <table class="table table-striped mb-4">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Department Name</th>
+                <th>Registered date</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>computer science</td>
+                <td>2-7-2020</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Health science</td>
+                <td>4-5-2090</td>
+                
+        </tbody>
+    </table>
+
+
+
+
+</div>
+
+</div>
+
+</div>
+<script src="bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/53a255a459.js" crossorigin="anonymous"></script> 
+</body>
+
+</html>

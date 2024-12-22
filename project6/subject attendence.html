@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub attendence</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <div class="card">
+            <div class="card-header" style="background-color: black ; color: white;">
+                <h6>Subject Attendence</h6>
+            </div>
+            <div class="card-body">
+                <!-- row1 -->
+
+                <form action="">
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-4">
+                        <!-- course -->
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-graduation-cap" style="color: black;"></i></span>
+                            <select name="course" id="course" class="form-select" style="color: black; ">
+                            <option value="disabled">Course</option>
+                                <option value="">
+                                    Computer Science
+                                </option>
+                                <option value=""> PHP</option>
+                                <option value="">HTML</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                        <!-- date -->
+                        <div class="col-md-4">
+
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-calendar-days" style="color: black;"></i></span>
+                            <input type="date" class="form-control">
+
+
+                        </div>
+
+                        </div>
+
+                        <!-- semester -->
+                        
+                        <div class="col-md-4">
+
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-computer"style="color: black;"></i></span>
+                                <select name="sem" id="sem" class="form-select" style=" color: rgb(0, 0, 0);" >
+                                    <option value="disabled">Semester</option>
+                                        <option value="">
+                                            Semester 1
+                                        </option>
+                                        <option value=""> Semester 2</option>
+                                        <option value="">Semester 3</option>
+                                    </select>
+
+
+    
+    
+                            </div>
+    
+                            </div>
+                        </div>
+                        <!-- row2 -->
+
+                        <!-- Shift -->
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa-solid fa-clock"style="color: black;"></i></span>
+                                    <select name="sem" id="sem" class="form-select" style=" color: rgb(0, 0, 0);" >
+                                        <option value="disabled">Shift</option>
+                                            <option value="">
+                                                Morning
+                                            </option>
+                                            <option value=""> Afternoon</option>
+                        
+                                        </select>
+                                    </div>
+        
+                                </div>
+
+                                <!-- ID -->
+
+                                <div class="col-md-4">
+
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa-solid fa-id-card" style="color: black;"></i></span>
+                                        <input type="text" class="form-control" placeholder="Student ID">
+            
+            
+                                    </div>
+            
+                                    </div>
+
+                                    <!-- attendence -->
+
+                                    <div class="col-md-4">
+
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fa-solid fa-check"style="color: black;"></i></span>
+                                            <select name="attendence" id="attendence" class="form-select" style=" color: rgb(0, 0, 0);" >
+                                                <option value="disabled">Attendence was not submitted yet</option>
+                                                    <option value="">
+                                                        Present
+                                                    </option>
+                                                    <option value=""> Not Present</option>
+                                
+                                                </select>
+                                            </div>
+                
+                                        </div>
+
+
+                                      
+
+
+                            </div>
+
+               
+                        </form>
+
+                     <!-- Button    -->
+
+                     <div class="row mt-4">
+                        <div class="col-md-12">
+                    <button type="submit " class="btn btn-success w-100">Submit Attendence
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                        </div>
+                     </div>
+            </div>
+
+        </div>
+    </form>
+  <!-- table -->
+    <div class="card mt-4">
+        <div class="card-header " style="background-color: black;">
+        <div class="card-title" style="color: #fff;">Attendence List</div>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped">
+
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Attendence</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mohamed Ahmed</td>
+                        <td>123</td>
+                        <td><select name="" id="" class="form-select">
+                            <option value="">Present</option>
+                            <option value="">Not Present</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Aisha Ali</td>
+                        <td>987</td>
+                        <td><select name="" id="" class="form-select">
+                            <option value="">Present</option>
+                            <option value="">Not Present</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ahmed Ali</td>
+                        <td>654</td>
+                        <td><select name="" id="" class="form-select">
+                            <option value="">Present</option>
+                            <option value="">Not Present</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Fatima Ali</td>
+                        <td>3210</td>
+                        <td><select name="" id="" class="form-select">
+                            <option value="">Present</option>
+                            <option value="">Not Present</option>
+                        </select>
+                    </td>
+
+                       
+                    </tr>
+                </tbody>
+
+
+
+            </table>
+
+        </div>
+        
+
+    </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/53a255a459.js" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
