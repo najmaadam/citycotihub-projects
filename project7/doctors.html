@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ <!-- Doctor Registration Form -->
+         
+ <div class="container-fluid">
+
+  
+
+    <div class="card">
+
+   <div class="card-header">
+    <div class="card-title">Add New Doctor</div></div>
+
+    <form action="">
+
+    <div class="card-body">
+
+        <!-- row1 -->
+<div class="row">
+    <div class="col-md-4">
+        <label for="">FullName </label>
+     <div class="input-group">
+ 
+            <span class="input-group-text"> <i class="fa-solid fa-user" style="color: navy;"></i></span>
+            <input type="text" placeholder="Enter Full Name" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label for="">Email</label>
+        <div class="input-group">
+            <span class="input-group-text"> <i class="fa-solid fa-envelope" style="color: navy;"></i></span>
+            <input type="text" placeholder="Enter Email" class="form-control">
+        </div>
+    </div>
+
+
+<div class="col-md-4">
+    <label for="">Title </label>
+        <div class="input-group">
+            <span class="input-group-text"> <i class="fa-solid fa-suitcase-medical"style="color: navy;"></i></span>
+            <input type="text" placeholder="Enter Title" class="form-control">
+        </div>
+</div>
+<!-- row2 -->
+<div class="row mt-4 g-3">
+<div class="col-md-4">
+    <label for="">Deparment</label>
+    <div class="input-group">
+        <span class="input-group-text"><i class="fa-solid fa-building"style="color: navy;"></i></span>
+        
+<select name="dep" id="dep" class="form-select">
+    <option value="disabled">choose deparment</option>
+    <option value=""> Cardiolagist</option>
+    <option value="">Pedriatic</option>
+</select>
+</div>
+</div> 
+
+<div class="col-md-4">
+    <label for="">Expriences</label>
+    <div class="input-group">
+        <span class="input-group-text"> <i class="fa-solid fa-calendar-days" style="color: navy;"></i></span>
+        <input type="text" placeholder="Enter Expriences in Years" class="form-control">
+    </div>
+</div>
+<div class="col-md-4">
+    <label for="">Phone Number</label>
+    <div class="input-group">
+        <span class="input-group-text"> <i class="fa-solid fa-phone" style="color: navy;"></i></span>
+        <input type="text" placeholder="Enter contact Number" class="form-control">
+    </div>
+</div>
+</div>
+<!-- row3 -->
+
+<div class="row mt-4 g-3">
+<div class="col-md-4">
+    <label for="">Degree</label>
+    <div class="input-group">
+        <span class="input-group-text"> <i class="fa-solid fa-graduation-cap" style="color: navy;"></i></span>
+        <input type="text" placeholder="Enter Degree" class="form-control">
+    </div>
+</div>
+<div class="col-md-4">
+    <label for="">Fees</label>
+    <div class="input-group">
+        <span class="input-group-text"> <i class="fa-solid fa-dollar-sign" style="color: navy;"></i></span>
+        <input type="text" placeholder="Enter Fees" class="form-control">
+    </div>
+</div>
+
+<div class="col-md-4">
+    <label for="">Profile Photo</label>
+    <div class="input-group">
+        <span class="input-group-text"> <i class="fa-solid fa-camera" style="color: navy;"></i></span>
+        <input type="file" placeholder="Enter Profile Photo" class="form-control">
+    </div>
+</div>
+
+</div>
+
+<!-- row4 buttons -->
+
+<div class="row mt-4">
+    <div class="col-md-3">
+<button type="submit " class="btn btn-success w-100">Save
+    <i class="fas fa-save"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-warning w-100">Update
+    <i class="fa-solid fa-pen"></i>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="reset" class="btn btn-danger w-100">Delete 
+    <i class="fas fa-trash"></i></button>
+</button>
+    </div>
+    <div class="col-md-3">
+<button type="submit" class="btn btn-info w-100" > Search
+   <i class=" fas fa-search"></i>
+</button>
+    </div>
+</div>
+
+
+</form>
+ 
+</div>
+<!-- table section -->
+
+<div class="card mt-4">
+    <div class="card-header" style="background-color: navy;">
+        <div class="card-title" style="color: white;">List of Doctors</div>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-striped">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Title</th>
+                    <th>Deparment</th>
+                    <th>Expriences</th>
+                    <th>Contact</th>
+                    <th>Fees</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sacdia abdalle</td> 
+                    <td>sacdia@gmail</td>
+                    <td>Cardiolagist</td>
+                    <td>Cardiolagy</td>
+                    <td>10 years</td>
+                    <td> 989899</td>
+                    <td>$10000</td>
+                    
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fatimma hasan</td>
+                    <td>fatima@gmail</td>
+                    <td>perdriatcs</td>
+                    <td>Pedriatic</td>
+                    <td>3years</td>
+                    <td>77777777</td>
+                    <td>$3000</td>
+                    
+            </tbody>
+        </table>
+    
+    
+    
+
+
+        </table>
+
+
+    </div>
+
+</div>
+
+
+
+
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+         
+<script src="https://kit.fontawesome.com/53a255a459.js" crossorigin="anonymous"></script> 
+</body>
+
+</html>
