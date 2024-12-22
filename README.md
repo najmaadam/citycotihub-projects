@@ -17,7 +17,7 @@ https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project4)
 Project5: it is registering webpage contains form used to build HTML and CSS.[click link](
 https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project5)
 <br>
-project6: is a dashboard for my university used to build HTML,CSS and bootstrap.[click link]()
+project6: is a dashboard for my university used to build HTML,CSS and bootstrap.[click link](https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project6)
 <hr>
 
 **You can see my progress in every project and how my skills is growing there is a huge difference between my first project and my last project.**<br>
