@@ -1,0 +1,94 @@
+body{
+    
+  
+    background-color:rgb(232, 249, 255);
+}
+
+
+.box{
+    width: 930px;
+    height: auto;
+
+}
+
+.right-box{
+
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 200;
+    padding: 20px;
+}
+.header {
+
+    font-weight: 600;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.username{
+
+    padding-bottom: 20px;
+}
+
+.username label{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 10px; 
+   font-weight: 500;
+}
+
+
+
+.password label{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 10px; 
+   font-weight: 500;
+
+}
+
+.email label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 50px; 
+   font-weight: 500;
+   
+}
+
+.email{
+
+    margin-bottom: 20px;
+}
+
+.login{
+
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.signup .button{
+    
+background-color:  rgb(173, 209, 249) ;
+margin-top: 30px;
+}
+
+.forgot{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.forgot a{
+
+    color:  rgb(173, 209, 249);
+ 
+   
+    text-decoration: none;
+}
+
+.image{
+
+    width: 100%;
+    height: auto;
+}

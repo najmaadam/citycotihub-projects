@@ -1,0 +1,130 @@
+body{
+    
+  
+    background-color:rgb(232, 249, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.headers{
+
+    text-align: center;
+
+}
+.headers p{
+
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: brown;
+   font-weight: 700;
+}
+
+
+.box{
+    width: 930px;
+    height: auto;
+
+}
+
+.right-box{
+
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 200;
+    padding: 20px;
+}
+.header {
+
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.username{
+
+    padding-bottom: 20px;
+}
+
+.username label{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 10px; 
+   font-weight: 500;
+}
+
+
+
+
+.password label{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 10px; 
+   font-weight: 500;
+
+}
+
+.email label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 50px; 
+   font-weight: 500;
+   
+}
+
+.email{
+
+    margin-bottom: 20px;
+}
+
+.profile{
+    margin-top: 10px;
+}
+.profile label{
+    margin-right: 5px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login{
+
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.signup .button{
+    
+background-color:brown;
+margin-top: 50px;
+color: white;
+width: 100%;
+font-size: larger;
+
+}
+
+.signup .button a{
+
+    text-decoration: none;
+    color: white;
+}
+.OR{
+
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+}
+
+.icons{
+    text-align: center;
+}
+.icons img{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image{
+
+    width: 100%;
+    height: auto;
+}
