@@ -19,7 +19,7 @@ https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project5)
 <br>
 project6: is a dashboard for my university used to build HTML,CSS and bootstrap.[click link](https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project6)
 <br>
-project7: is a hospital dashboard that contains doctor page,donor page,patient page.[click here](https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project7)
+project7: is a hospital dashboard i used to build this HTML,CSS,Bootsrap and PHP.[click here](https://github.com/NajmaMahadAdam/citycotihub-projects/tree/main/project7)
 <hr>
 
 **You can see my progress in every project and how my skills is growing there is a huge difference between my first project and my last project.**<br>
